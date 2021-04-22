@@ -10,10 +10,10 @@ class AllData2 extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pop(context);
           },
-          child: Text('Go back!'),
+          child: Image.asset('assets/Templet1.jpeg'),
         ),
+        
       ),
     );
   }

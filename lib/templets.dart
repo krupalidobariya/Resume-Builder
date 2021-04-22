@@ -1,3 +1,5 @@
+//import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'templet1.dart';
 import 'templet2.dart';
@@ -19,18 +21,20 @@ class AllData extends StatelessWidget {
                 children: [
                   ListTile(
                   //  leading: Icon(Icons.arrow_drop_down_circle),
-                    title: const Text('Templet 1'),
-                    subtitle: Text(
-                      'Secondary Text',
-                      style: TextStyle(color: Colors.black.withOpacity(0.6)),
-                    ),
+                    title: const Text(
+          "Templet 1",
+          textAlign: TextAlign.start,
+          textScaleFactor: 1.3,
+          style: TextStyle(
+            color: Colors.blue
+            
+          ),
+        ),
+                    
                   ),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text(
-                      'Content',
-                      style: TextStyle(color: Colors.black.withOpacity(0.6)),
-                    ),
+                    child:  Image.asset('assets/Templet1.jpeg'),
                   ),
                   ButtonBar(
                     alignment: MainAxisAlignment.start,
@@ -45,10 +49,9 @@ class AllData extends StatelessWidget {
                         },
                         child: const Text('Chhose'),
                       ),
-                    
                     ],
                   ),
-                 // Image.asset('assets/card-sample-image.jpg'),
+                 // Image.asset('assets/Templet1.jpeg'),
                 ],
               ),
             ),
@@ -58,18 +61,20 @@ class AllData extends StatelessWidget {
                 children: [
                   ListTile(
                     //leading: Icon(Icons.arrow_drop_down_circle),
-                    title: const Text('Templet 2'),
-                    subtitle: Text(
-                      'Secondary Text',
-                      style: TextStyle(color: Colors.black.withOpacity(0.6)),
-                    ),
+                    title: const Text(
+          "Templet 2",
+          textAlign: TextAlign.start,
+          textScaleFactor: 1.3,
+          style: TextStyle(
+          color: Colors.blue ,
+            
+          ),
+        ),
+                    
                   ),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text(
-                      'Content',
-                      style: TextStyle(color: Colors.black.withOpacity(0.6)),
-                    ),
+                    child: Image.asset('assets/Templet2.jpeg'),
                   ),
                   ButtonBar(
                     alignment: MainAxisAlignment.start,

@@ -12,7 +12,7 @@ class AllData3 extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Go back!'),
+          child: Image.asset('assets/Templet2.jpeg'),
         ),
       ),
     );
