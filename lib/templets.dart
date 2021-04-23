@@ -26,7 +26,8 @@ class AllData extends StatelessWidget {
           textAlign: TextAlign.start,
           textScaleFactor: 1.3,
           style: TextStyle(
-            color: Colors.blue
+          color: Colors.black,
+          backgroundColor: Colors.grey
             
           ),
         ),
@@ -65,8 +66,10 @@ class AllData extends StatelessWidget {
           "Templet 2",
           textAlign: TextAlign.start,
           textScaleFactor: 1.3,
+          
           style: TextStyle(
-          color: Colors.blue ,
+            color: Colors.black ,
+            backgroundColor: Colors.grey
             
           ),
         ),
@@ -74,7 +77,7 @@ class AllData extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Image.asset('assets/Templet2.jpeg'),
+                    child:  Image.asset('assets/Templet2.jpeg'),
                   ),
                   ButtonBar(
                     alignment: MainAxisAlignment.start,

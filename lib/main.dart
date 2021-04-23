@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'detail.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_app/pages/loginScreen.dart';
+import 'package:flutter_app/pages/signupScreen.dart';
 //import 'package:flutter_app/pages/tasks.dart';
 
 void main() => runApp(MyApp());
@@ -35,7 +36,7 @@ class _HomePageState extends State<HomePage> {
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           FirebaseUser user = snapshot.data;
-          return MyHomePage();
+          return SignUpScreen();
         } else {
           return LoginScreen();
         }
